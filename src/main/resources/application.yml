@@ -1,0 +1,10 @@
+server.port=8085
+
+spring.datasource.url=jdbc:h2:file:D:/Source/java/starltd/StarLTD/src/main/resources/transaction
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=false
+spring.sql.init.mode=never
